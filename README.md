@@ -1,1 +1,2 @@
-# mbe-ecommerce
+# mbe-site
+# Mikhaelas Beauty Essential Website
