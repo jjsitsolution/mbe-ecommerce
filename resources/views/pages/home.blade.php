@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', 'About')
+@section('title', "Mikhaela's Beauty Essentials")
 
 @section('sidebar')
 
