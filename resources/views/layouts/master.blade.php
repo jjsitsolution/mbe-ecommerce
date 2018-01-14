@@ -7,9 +7,13 @@
     <meta name="author" content="">
 
     <title>@yield('title')</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <style>
+        @yield('styles')
+    </style>
 </head>
 <body>
+
 @section('sidebar')
 
 @show
@@ -18,4 +22,5 @@
     @yield('content')
 </div>
 </body>
+<script src="js/app.js"></script>
 </html>
