@@ -34,8 +34,8 @@
         <div class="col-lg-12">
             <div class="about-primary-image">
                 <div class="primary-image-text">
-                    <h2>WHO WE ARE</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et metus sodales, hendrerit ex venenatis, convallis arcu. Integer mollis metus in dolor luctus, nec commodo enim fringilla. Etiam congue elit vitae urna venenatis consequat.</p>
+                    <h2 class="text-primary-color">WHO WE ARE</h2>
+                    <p class="text-secondary-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et metus sodales, hendrerit ex venenatis, convallis arcu. Integer mollis metus in dolor luctus, nec commodo enim fringilla. Etiam congue elit vitae urna venenatis consequat.</p>
                 </div>
             </div>
         </div>
@@ -49,10 +49,10 @@
         </div>
         <div class="col-lg-6">
             <div class="mt-5">
-                <h2 class="text-right">SPREADING BEAUTY</h2>
-                <h2 class="text-right">ESSENTIALS SINCE</h2>
-                <h2 class="text-right">2005</h2>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <h2 class="text-right text-primary-color">SPREADING BEAUTY</h2>
+                <h2 class="text-right text-primary-color">ESSENTIALS SINCE</h2>
+                <h2 class="text-right text-primary-color">2005</h2>
+                <p class="text-justify text-secondary-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris et sodales augue. Nullam consectetur odio eget enim
                     porttitor, non sagittis tortor tempor. Aliquam erat volutpat.
                 </p>
