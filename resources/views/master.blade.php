@@ -7,9 +7,19 @@
     <meta name="author" content="">
 
     <title>@yield('title')</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <script src="{{ asset('js/app.js') }}"></script>
+
+
+
+
 </head>
 <body>
+@include('layouts.header')
+
+@include('layouts.nav')
+
 @section('sidebar')
 
 @show
@@ -17,5 +27,8 @@
 <div class="container">
     @yield('content')
 </div>
+
+@include('layouts.footer')
+
 </body>
 </html>
