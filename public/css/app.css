@@ -1,8 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css);.text-primary-color {
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css);body {
+  margin: 0;
+  padding: 0;
+}
+
+.text-primary-color {
   color: #72716f;
 }
 
 .text-secondary-color {
   color: #a4a19b;
+}
+
+#logo {
+  width: 200px;
+  height: 50px;
 }
 

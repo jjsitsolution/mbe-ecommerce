@@ -21,6 +21,8 @@
 
 @show
 
+@yield('hero-content')
+
 <div class="container">
     @yield('content')
 </div>
