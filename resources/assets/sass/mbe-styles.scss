@@ -1,7 +1,48 @@
+@import "_variables.scss";
+
+body{
+
+}
+
+p{
+  color :  $primary-text-color;
+  font-size: $font-size-base;
+  margin: 0px;
+}
+
+h5{
+  color : $primary-text-color;
+}
+
 .text-primary-color{
-  color: #72716f;
+  color: $primary-text-color;
 }
 
 .text-secondary-color{
-  color : #a4a19b;
+  color : $secondary-text-color;
+}
+
+
+.custom-accordion .card{
+  border: none;
+  border-radius: 0px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.custom-accordion .card-header{
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.custom-accordion .card-body{
+  padding: 10px 10px 20px 40px;
+
+}
+
+.custom-accordion .card-header a{
+  font-size: $font-size-base;
+  text-decoration: none;
+  color: $secondary-text-color;
+  font-weight: 400;
 }
