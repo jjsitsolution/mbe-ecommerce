@@ -20,6 +20,10 @@ class PagesController extends Controller
         return view('pages.help');
     }
 
+    public function contact(){
+        return view('pages.contact');
+    }
+
 
 
 }
