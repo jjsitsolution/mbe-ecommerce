@@ -128,6 +128,19 @@
             <h5 class="mt-4">Contact Us</h5>
             <p>We're open 9am - 5pm GMT</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+            <div class="card card-block bg-light mt-2 pt-2 pb-2 pl-4">
+                <p><i class="fa fa-comment-o mr-2"></i> Live Chat</p>
+            </div>
+
+            <div class="card card-block bg-light mt-2 pt-2 pb-2 pl-4">
+                <p class="text-strong"><i class="fa fa-envelope-o mr-2 text-strong"></i> Snail Mail</p>
+                <p class="pl-4 text-strong">Mikhella's Beauty Essential</p>
+                <p class="pl-4 text-strong">PO Box 518</p>
+                <p class="pl-4 text-strong">M5 OPN</p>
+                <p class="pl-4 text-strong">Philippines</p>
+            </div>
+
         </div>
     </div>
 
