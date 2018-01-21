@@ -16,6 +16,10 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function help(){
+        return view('pages.help');
+    }
+
 
 
 }
