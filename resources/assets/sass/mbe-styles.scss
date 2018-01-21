@@ -1,13 +1,26 @@
+@import "_variables.scss";
+
 body{
-  margin: 0;
-  padding: 0;
+
 }
+
+p{
+  color :  $primary-text-color;
+  font-size: $font-size-base;
+  margin: 0px;
+}
+
+h5{
+  color : $primary-text-color;
+  font-weight: 400;
+}
+
 .text-primary-color{
-  color: #72716f;
+  color: $primary-text-color;
 }
 
 .text-secondary-color{
-  color : #a4a19b;
+  color : $secondary-text-color;
 }
 
 //header bar specific styles
@@ -16,3 +29,56 @@ body{
   height: 50px;
 }
 
+
+
+.text-strong{
+  color : $text-strong-color;
+  font-weight: 500;
+}
+
+
+.custom-accordion .card{
+  border: none;
+  border-radius: 0px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.custom-accordion .card-header{
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.custom-accordion .card-body{
+  padding: 10px 10px 20px 40px;
+
+}
+
+.custom-accordion .card-header a{
+  font-size: $font-size-base;
+  text-decoration: none;
+  color: $secondary-text-color;
+  font-weight: 400;
+}
+
+.custom-accordion [data-toggle="collapse"]:after {
+  font-family: 'FontAwesome';
+  content: "\f106"; /* "up arrow" icon */
+  float: right;
+  color: #b0c5d8;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform:    rotate(0deg);
+  -ms-transform:     rotate(0deg);
+  -o-transform:      rotate(0deg);
+  transform:         rotate(0deg);
+}
+
+.custom-accordion [data-toggle="collapse"].collapsed:after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform:    rotate(90deg);
+  -ms-transform:     rotate(90deg);
+  -o-transform:      rotate(90deg);
+  transform:         rotate(90deg);
+}
