@@ -8,25 +8,27 @@
 
     <title>@yield('title')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <style>
-        @yield('styles')
-    </style>
+    @stack('styles')
 </head>
 <body>
-@include('layouts.header')
+    <div id="app" class="wrapper">
+        @include('layouts.header')
 
-@include('layouts.nav')
+        @include('layouts.nav')
 
-@section('sidebar')
+        @section('sidebar')
 
-@show
+        @show
 
-<div class="container">
-    @yield('content')
-</div>
+        <div class="container">
+            @yield('content')
+        </div>
 
-@include('layouts.footer')
+        @include('layouts.footer')
+    </div>
 
-<script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+    @stack('scripts')
+
 </body>
 </html>
