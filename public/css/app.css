@@ -12249,6 +12249,10 @@ a.text-dark:hover {
   visibility: hidden !important;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 p {
   color: #868583;
   font-size: 14px;
